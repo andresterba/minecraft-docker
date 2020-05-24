@@ -24,7 +24,6 @@ make stop
 make clean
 
 # Delete the volume
-docker volume rm minecraft-docker_minecraft-data
-
+make cleanall
 ```
 
