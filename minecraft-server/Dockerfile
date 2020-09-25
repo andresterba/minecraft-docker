@@ -6,7 +6,7 @@ WORKDIR /papermc
 
 RUN apk add --update curl \
     && rm -rf /var/cache/apk/* \
-    && curl https://papermc.io/api/v1/paper/1.15.2/latest/download -o paperclip.jar \
+    && curl https://papermc.io/api/v1/paper/1.16.3/latest/download -o paperclip.jar \
     && echo "eula=true" > eula.txt \
     && chmod 700 paperclip.jar
 
